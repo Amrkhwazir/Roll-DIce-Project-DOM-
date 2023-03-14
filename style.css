@@ -27,21 +27,54 @@ body{
     font-size: 32px;
 
 }
+.totalPlayerScore1{
+    padding-top: 30px;
+    margin: 0px auto;
+    width: 150px;
+    height: 90px;
+    background-color: rgb(45, 44, 44);
+}
+.totalPara{
+    position: absolute;
+    top: 155px;
+    left: 160px;
+    color: white;
+    font-size: 18px;
+}
+.totalPlayerScore2{
+    padding-top: 30px;
+    margin: 0px auto;
+    width: 150px;
+    height: 90px;
+    background-color: rgb(45, 44, 44);
+}
+
 .score1{
-    padding-top: 20px;
+    padding-top: 25px;
     color: white;
     align-self: center;
     width: 160px;
-    height: 80px;
+    height: 70px;
     background-color: rgb(237, 104, 104);
 }
+.currentPara{
+    position: relative;
+    top: 95px;
+    color: white;
+    font-size: 18px;
+}
+
 .score2{
-    padding-top: 20px;
+    padding-top: 25px;
     color: white;
     align-self: center;
     width: 160px;
-    height: 80px;
+    height: 70px;
     background-color: rgb(237, 104, 104);
+}
+.score2 p{
+    font-size: 14px;
+    margin-top: 0px;
 }
 .col h1{
     color: white;
@@ -67,6 +100,7 @@ body{
     border-radius: 50px;
     width: 140px;
     height: 40px;
+    z-index: 222;
 }
 .totalPlayerScore1{
     font-size: 50px;
@@ -89,6 +123,7 @@ body{
 .diceImg{
     width: 100px;
     margin-left: 18px;
+    z-index: 222;
 }
 .hidden{
     display: none;
